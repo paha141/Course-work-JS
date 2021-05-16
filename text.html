@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>рroject</title>
+  <link rel="stylesheet" href="css/main.css">
+ </head>
+<body>
+  <header>
+    <h2> Введите длину поля: </h2>
+    <input id="m" size="1" value="3" type="number" min="1">
+    <h2> Введите ширину поля: </h2>
+    <input id="n" size="1" value="5" type="number" min="1">
+    <input type="button" value="Создать поле" id="addToField">
+    <script src="js/CreateMatrix.js"></script>
+    <h3> Заполните поле островами </h3>
+  </header>
+  
+  <div class="table" id="table"></div>
+  
+  <section>
+    <input type="button" value="Найти max площать" id="addButton">
+  </section>
+  
+  <footer>
+      <h3>Mаксимальная площать: </h3>
+      <textarea disabled="disabled" id="result"></textarea> 
+  </footer>
+  <script src="js/script.js"></script>
+   
+</body>
+</html>
